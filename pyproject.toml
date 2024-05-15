@@ -1,0 +1,30 @@
+[project]
+name = "twogroups_heatmap"
+version = "0.1"
+authors = [
+  { name="Giuditta Clerici", email="giuditta.clerici@external.fht.org" },
+  { name="Edoardo Giacopuzzi", email="edoardo.giacopuzzi@external.fht.org" }
+]
+description = "Create a heatmap of representing intersection between two groups"
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "seaborn",
+    "pandas",
+    "numpy",
+    "matplotlib",
+]
+
+[project.urls]
+Homepage = "https://github.com/HTGenomeAnalysisUnit/sc_2g_heatmap.git"
+Issues = "https://github.com/HTGenomeAnalysisUnit/sc_2g_heatmap/issues"
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
