@@ -8,8 +8,8 @@ here = pathlib.Path(__file__).parent.resolve()
 long_description = (here / 'README.md').read_text(encoding='utf-8')
 
 setup(
-    name='twogroups_heatmap',
-    version='0.1.1',
+    name='twogroups-heatmap',
+    version='0.1.3',
     description='Create a heatmap of representing intersection between two groups',
     long_description=long_description,
     long_description_content_type='text/markdown',
@@ -22,4 +22,5 @@ setup(
         "Operating System :: OS Independent",
     ],
     packages=find_packages(where='src'),
+    package_dir={"": "src"},
 )

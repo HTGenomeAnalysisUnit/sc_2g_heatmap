@@ -5,16 +5,16 @@ Generate an heatmap comparing overlaps between 2 set of labels in a pandas dataf
 ## Installation
 
 ```bash
-pip install twogroups_heatmap
+pip install twogroups-heatmap
 ```
 
 ## Usage
 
 ```python
 from twogroups_heatmap import intersection_heatmap
+import pandas as pd
 
-
-df = pandas.DataFrame(
+df = pd.DataFrame(
     {
         "cluster1": ["A", "A", "B", "B", "C", "C"],
         "cluster2": ["A", "B", "B", "C", "C", "D"],
