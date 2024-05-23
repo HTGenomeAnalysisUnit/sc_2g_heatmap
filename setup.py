@@ -22,4 +22,10 @@ setup(
         "Operating System :: OS Independent",
     ],
     packages=find_packages(where='src'),
+    install_requires=[
+        "seaborn>=0.12",
+        "pandas>=1.5",
+        "numpy>=1.23",
+        "matplotlib>=3.6",
+    ],
 )

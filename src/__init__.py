@@ -1,1 +1,1 @@
-from heatmap_code import intersection_heatmap
+from .heatmap_code import intersection_heatmap

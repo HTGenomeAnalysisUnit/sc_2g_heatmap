@@ -8,17 +8,17 @@ authors = [
 description = "Create a heatmap of representing intersection between two groups"
 readme = "README.md"
 license = {file = "LICENSE"}
-requires-python = ">=3.10"
+requires-python = ">=3.8"
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
 dependencies = [
-    "seaborn",
-    "pandas",
-    "numpy",
-    "matplotlib",
+    "seaborn>=0.12",
+    "pandas>=1.5",
+    "numpy>=1.23",
+    "matplotlib>=3.6",
 ]
 
 [project.urls]
