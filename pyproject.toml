@@ -1,6 +1,6 @@
 [project]
 name = "twogroups_heatmap"
-version = "0.1"
+version = "0.1.1"
 authors = [
   { name="Giuditta Clerici", email="giuditta.clerici@external.fht.org" },
   { name="Edoardo Giacopuzzi", email="edoardo.giacopuzzi@external.fht.org" }

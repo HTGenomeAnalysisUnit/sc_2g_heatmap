@@ -9,7 +9,7 @@ long_description = (here / 'README.md').read_text(encoding='utf-8')
 
 setup(
     name='twogroups_heatmap',
-    version='0.1',
+    version='0.1.1',
     description='Create a heatmap of representing intersection between two groups',
     long_description=long_description,
     long_description_content_type='text/markdown',
@@ -22,10 +22,4 @@ setup(
         "Operating System :: OS Independent",
     ],
     packages=find_packages(where='src'),
-    install_requires=[
-        "seaborn>=0.12",
-        "pandas>=1.5",
-        "numpy>=1.23",
-        "matplotlib>=3.6",
-    ],
 )
